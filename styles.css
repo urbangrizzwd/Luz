@@ -24,7 +24,7 @@
 
     
 .myjumbotronimg-services {
-    background-image: url(images/new-service.jpg) ;
+    background-image: url(images/services-jumbo-1.jpg) ;
     background-size: cover;
     background-repeat: no-repeat;
    min-height: 300px;
@@ -95,7 +95,7 @@
 
     /* call to action ends */
     .myjumbotronimg-services {
-        min-height: 450px;
+        min-height: 200px;
          width: auto;
      
      }
@@ -112,7 +112,7 @@
    
      .myjumbotronimg-services {
         
-        min-height: 600px;
+        min-height: 200px;
         width: auto;
         
     
@@ -251,10 +251,9 @@
 }
 
 .container {
-    width: 1024px;
-    height: auto;
-
-}
+    width: 100%;
+    max-width: 1200px;
+    }
 
 /* CSS starts  */
 body {
@@ -383,3 +382,9 @@ footer a {
 
 }
 
+/* about me starts here */
+.myjumbotronimg-about {
+    background-image: url(images/about-me-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
