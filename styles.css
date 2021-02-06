@@ -1,0 +1,385 @@
+
+/* Extra small devies (landscape phones, 320px and up */
+@media (min-width: 320px) {
+    .navbar-text { font-size: .9rem;
+    }
+
+    /* call to action starts here  */
+    .myherofont{
+        font-size: .7rem;
+
+    }
+
+    .myherofont2{
+        font-size: .5rem;
+
+    }
+
+    /* call to action ends here  */
+
+    .myjumbotron-contact {
+        min-height: 200px;
+        width: auto;
+    }
+
+    
+.myjumbotronimg-services {
+    background-image: url(images/new-service.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+   min-height: 300px;
+    width: auto;
+
+}
+
+
+    }
+
+   article h1 { 
+       font-size: 1.5rem;
+        color: #E85A4F;
+
+    }
+
+
+/* Extra small devies (landscape phones, 375px and up */
+@media (min-width: 375px) {
+    .navbar-text { font-size: 1.2rem;
+    }
+    /* call to action starts here  */
+    .myherofont{
+        font-size: .9rem;
+
+    }
+
+    .myherofont2{
+        font-size: .7rem;
+
+    }
+
+  /* call to action ends here  */
+
+  .myjumbotronimg-services {
+    min-height: 400px;
+     width: auto;
+ 
+ }
+
+}
+
+
+/* Small devices (landscape phones, 425px and up) */
+@media (min-width: 425px) {
+
+    /* nav bar starts */
+    .navbar-text { font-size: 1.5rem;
+    }
+
+    .navbar img {
+        width: 80px;
+        height: 80px ;
+    }
+    
+    /* nav bar ends */
+
+    /* call to action starts  */
+    .myherofont{
+        font-size: 1.0rem;
+
+    }
+
+    .myherofont2{
+        font-size: .7rem;
+
+    }
+
+    /* call to action ends */
+    .myjumbotronimg-services {
+        min-height: 450px;
+         width: auto;
+     
+     }
+    
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .myjumbotron-contact {
+        min-height: 300px;
+        width: auto;
+    }
+
+   
+     .myjumbotronimg-services {
+        
+        min-height: 600px;
+        width: auto;
+        
+    
+    }
+
+}
+
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+    .navbar-text { font-size: 1.8rem;
+    }
+
+    .navbar img {
+        width: 100px;
+        height: 100px ;
+    }
+
+/* call to action starts  */
+    .myherofont{
+        font-size: 2.0rem;
+
+    }
+
+    .myherofont2{
+        font-size: 1.7rem;
+
+    }
+
+/* call to action ends */
+
+/* advert starts here */
+    .advert img {
+        width: 100px;
+        height: auto;
+    }
+
+    h6 {
+        font-size: .6rem;
+
+
+    }
+
+    article h1 {
+        font-size: 2.0rem;
+
+
+    }
+
+
+/* advert ends here */
+.myjumbotron-contact {
+    min-height: 400px;
+    width: auto;
+}
+
+.contact-header {
+    font-size: 1.3rem;
+
+}
+
+
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    .myherofont{
+        font-size: 2.5rem;
+
+    }
+
+    .myherofont2{
+        font-size: 2.2rem;
+
+    }
+
+
+    /* advert starts here  */
+
+    .advert img {
+        width: 150px;
+        height: auto;
+
+
+    }
+    .advert h6 {
+        font-size: 1rem;
+
+    }
+
+    .advert p {
+        font-size: .9rem;
+
+    }
+
+    .contact-header {
+        font-size: 1.5rem;
+
+    }
+    .myjumbotronimg-services {
+        
+        height: 100%;
+        width: auto;
+    
+    }
+
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .navbar-text { font-size: 2.5rem;
+    }
+
+    .advert img {
+        width: 200px;
+        height: auto;
+    }
+
+    .advert h6 {
+        font-size: 1.2rem;
+    }
+
+    .advert p {
+       font-size: 1.rem;
+
+
+    }
+
+    .myjumbotron-contact {
+        min-height: 500px;
+        width: auto;
+    }
+}
+
+.container {
+    width: 1024px;
+    height: auto;
+
+}
+
+/* CSS starts  */
+body {
+    background-color: #EAE7DC;
+    font-family: 'Arvo', serif;
+}
+
+
+/* Nav bar css starts here */
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+
+}
+
+.navbar-light .navbar-text{
+    color: black;
+}
+
+.navbar {
+    border-bottom: 1px solid #8E8D8A
+
+}
+/* Nav bar ends here */
+
+/* Call to action starts here */
+.myjumbotronimg {
+    background-image: url(images/call-to-action.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+.myherofont2{
+    color:#E85A4F ;
+
+}
+
+/* call to action ends here */
+
+/* form starts here */
+form {
+    text-align: center;
+    border:1px solid #000000;
+    
+}
+ form h6 {
+border:1px solid #000000;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
+.form-control {
+    border:1px solid #000000;
+    background-color: #EAE7DC;
+    font-size: .8rem;
+}
+
+.btn-dark{
+    background-color: #EAE7DC;
+    color: black;
+}
+
+/* form ends here */
+
+/* My mission starts here */
+
+h3 {
+    color: #E85A4F;
+
+}
+
+
+/* My mission ends here */
+
+
+/*why choose me starts here  */
+
+.advert{
+    min-height: 400px;
+    width: auto;
+    background-color: #8E8D8A;
+    color: white; 
+}
+
+/*why choose me ends here  */
+
+
+/* services starts here */
+   
+.card {
+   background-color:#EAE7DC; 
+}
+
+
+.feedback h6 {
+    color: #E85A4F;
+
+
+}
+
+/* services ends here */
+
+/* footer starts here  */
+
+footer a {
+    background-color: #8E8D8A;
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Services pages starts here  */
+
+
+
+.myjumbotron-contact {
+    background-image: url(images/contact.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-contact .card-number .card-email {
+    font-size: 1.3rem;
+
+
+
+}
+
